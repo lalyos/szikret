@@ -1,0 +1,19 @@
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  annotations:
+    sealedsecrets.bitnami.com/cluster-wide: "true"
+  creationTimestamp: null
+  name: szikret
+spec:
+  encryptedData:
+    COLOR: AgBxcJIRfHoRlYA4G0wHUDrfvjTzEwqZJUHakqAm1nTcLWEQFokTONkY+Z2Rp2Hd/23AkfxrzmLzcPyMNKjU9IwauxT89+sSyD7eKC8mXIh+FsMAyFIsjMjFntHAoUCTpPyqHRHiOxnV7UP6xoRjG1haI2k09li3RhNojou8ZF+gFMyCchcIoC+FdLEkraN6szg1wD1/kIWUAnnE47Z3gp5jQ7+dc73XJDPheF3MywCLety3kTy1MSGlrvZRtfBSldVitIMxrR9FAUJdgv2LTyxTJXDAB/F8giqJh/AV4D19i8ZPG3/vafOjRS77Y+EcEjYfaT84LjxX0wmV3eRMqw/1ZMVyq6UrYB/ZtMuT/7vbyUQy+TlupWbUFUfJJlYDrF9OytFVSUwTgNhkNj0Q2rQEs6qzbO3O00oaWv79HiT/QKN/nIn9ROS244270vHmxHYPuzEpY0d++AWWeFrhn63g7Zjwl/h+CpbLKFvHn+UxZH+HB4tQWicnWdP0TZtdntdBpK3R5MoO7EebEuvGWvA3/omIYUDSC+/VFVpTBO0wOKk+qcKfLR+JuMOccQEqDl2N9AfJI3GDw402MSrRztc9Psy956MY/1fbOKR6UY/s0J4Lkw4lRjk7spdIIedXBor5WoKhggb21CYXnH2EDYJOOnFo/+Nzm3EICnR3b6np2oPrLtkFXKMLXO8L1C2sJd6Pz/I=
+    TITLE: AgBzYest+ycYqZFcnZ5E3ZYtMrQpptX1s4d0TWyKMXczB0k4hyeAPs5u8/NXqjcvPvjm3YpYGD9BZeJcVl6d00z2ZkIs789aD/zz6j7cinEMPq2pBu20Jjt5wlOhtHujNDGHt9qp1YT6LZ1U2/eGxyxHpO058v82CeV8fXgd60LjLL1TSmqneibNrmmPCJOcSAwmNZTOW5QlaqI01684y7427HUMBtOWgR02ooABwbojYDZo0c+Q++wI/KB2cnx3rqbBlAjOFjtqAwUCsRIKCwD9RXu49zL5XQIVG80XEaguRAbAHp1/O0Godzt0NSTY4j79/IKzt3z7otN5TmwzF1l/xkQ2AWzMh3glyLIl/b7wDOMPVSmGwz+5AfwrV96j/v87HcN/MdTr51XDt0ruo8efOyjLsDYHb2fbTroTlh8OBkC0vrEvEhz0xwuTUZeHbzwPk0eXi+kd5b37z1AkEzfMbZgx6RYMXarWRix9Hb556iukhsmVSgF8oz8NYbtgFcQL6JHIYiMDO/h5IPLAw7z22Oygc4lvXHVkCvrrUV05XUIAxK0RRqNeBgFfmDvNi6Whr4uCUoO1RgYLluiMckFoAoaFzWBpyPoYNM33LhZRmqMOPOn2GyzRJeDrcj7xpnWccWWFzIRqv32szMlPIKVs+5LqGdIlSjkvpyYf7yNruGMYbeRlg87YRlkHif+tOri95e4SRwlE2Mk2zRs=
+  template:
+    data: null
+    metadata:
+      annotations:
+        sealedsecrets.bitnami.com/cluster-wide: "true"
+      creationTimestamp: null
+      name: szikret
+

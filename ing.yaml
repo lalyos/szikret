@@ -4,9 +4,9 @@ metadata:
   name: ebed
 spec:
   rules:
-  -   host: ebed.lalyos.k8z.eu
+  -   host: titok.k8z.eu
       http:
         paths:
         - backend:
-            serviceName: ebed
+            serviceName: titok
             servicePort: 80
